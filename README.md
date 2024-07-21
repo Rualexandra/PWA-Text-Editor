@@ -1,1 +1,2 @@
-# Text Editor Starter Code
+# PWA-Text-Editor
+Progressive Web Applications (PWA) Challenge: Text Editor
