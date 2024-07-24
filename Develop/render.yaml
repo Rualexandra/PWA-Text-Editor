@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: pwa-text-editor
+    env: node
+    plan: free
+    buildCommand: cd client && npm install && npm run build
+    startCommand: cd client && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
